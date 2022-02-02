@@ -31,179 +31,190 @@
 31.                            De lo contrario
 32.                                Si valor == 7 entonces
 33.                                    crearFlickr()
-34.					Si valor >=8 or valor <1 entonces
-35.					    Escribir "error en opción seleccionada"
-36.        Escribir "Ingrese si para salir del proceso: "
-37.        Leer n
-38.        Si n == "si" or n == "Si" entonces
-39.            bandera <-- False
-40.        De lo contrario
-41.            bandera <-- True
-42.            contador <-- contador + 1
-43.    Escribir obtenerMensaje(contador))
-44. Fin funcion principal
+34.				  De lo contrario
+35.					Si valor >=8 or valor <1 entonces
+36.					    	Escribir "error en opción seleccionada"
+37.					Fin si 
+38.				  Fin si 
+39.			      Fin si
+40.			  Fin si 
+41. 		       Fin si				
+42.      	   Fin si 
+43.	       Fin si
+44.        Fin si				
+45.        Escribir "Ingrese si para salir del proceso: "
+46.        Leer n
+47.        Si n == "si" or n == "Si" entonces
+48.            bandera <-- False
+49.        De lo contrario
+50.            bandera <-- True
+51.            contador <-- contador + 1
+52.	  Fin si 
+53.	  Fin mientras
+54.    Escribir obtenerMensaje(contador))
+55. Fin funcion principal
 
-45. funcion crearFacebook():
-46.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Facebook\n"
-47.    nombre, x(200)[{A-Z}, {a-z} {BS}]
-48.    edad, i[0-n]
-49.    ciudad, x(200)[{A-Z}, {a-z} {BS}] 
-50.    pais, x(200)[{A-Z}, {a-z} {BS}]
-51.    correo, x(200)[{A-Z}, {a-z} {BS}] 
-52.    Escribir "Ingrese su nombre de usuario: "
-53.    Leer nombre
-54.    Escribir "Ingrese su edad: "
-55.    Leer edad
-56.    Escribir "Ingrese su ciudad: "
-57.    Leer ciudad
-58.    Escribir "Ingrese su país: "
-59.    Leer pais 
-60.    correo, x(200)[{A-Z}, {a-z} {BS}] 
-61.    Escribir "Ingrese su correo: "
-62.    Leer correo
-63.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nEdad: "+ edad + "\nCiudad: "+ ciudad + "\nPaís: "+ pais + "\nCorreo electrónico: "+ correo + "\n\n" 
-64.    Escribir cadena
-65. Fin funcion crearFacebook
+56. funcion crearFacebook():
+57.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Facebook\n"
+58.    nombre, x(200)[{A-Z}, {a-z} {BS}]
+59.    edad, i[0-n]
+60.    ciudad, x(200)[{A-Z}, {a-z} {BS}] 
+61.    pais, x(200)[{A-Z}, {a-z} {BS}]
+62.    correo, x(200)[{A-Z}, {a-z} {BS}] 
+63.    Escribir "Ingrese su nombre de usuario: "
+64.    Leer nombre
+65.    Escribir "Ingrese su edad: "
+66.    Leer edad
+67.    Escribir "Ingrese su ciudad: "
+68.    Leer ciudad
+69.    Escribir "Ingrese su país: "
+70.    Leer pais 
+71.    correo, x(200)[{A-Z}, {a-z} {BS}] 
+72.    Escribir "Ingrese su correo: "
+73.    Leer correo
+74.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nEdad: "+ edad + "\nCiudad: "+ ciudad + "\nPaís: "+ pais + "\nCorreo electrónico: "+ correo + "\n\n" 
+75.    Escribir cadena
+76. Fin funcion crearFacebook
 
-66. Funcion crearTwitter():
+77. Funcion crearTwitter():
 
-67.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Twitter\n"
-68.    nombre, x(200)[{A-Z}, {a-z} {BS}]
-69.    nombres, x(200)[{A-Z}, {a-z} {BS}]
-70.    apellido, x(200)[{A-Z}, {a-z} {BS}]
-71.    edad, i[0-n]
-72.    ciudad, x(200)[{A-Z}, {a-z} {BS}]
-73.    pais, x(200)[{A-Z}, {a-z} {BS}]
-74.    idioma, x(200)[{A-Z}, {a-z} {BS}]
-75.    correo, x(200)[{A-Z}, {a-z} {BS}]
-76.    Escribir "Ingrese su nombre de usuario: "
-77.    Leer nombre
-78.    Escribir "Ingrese sus nombres: "
-79.    Leer nombres
-80.    Escribir "Ingrese sus apellidos: "
-81.    Leer apellido
-82.    Escribir "Ingrese su edad: "
-83.    Leer edad
-84.    Escribir "Ingrese su ciudad: "
-85.    Leer ciudad
-86.    Escribir "Ingrese su país: "
-87.    Leer pais
-88.    Escribir "Ingrese el idioma: "
-89.    Leer idioma
-90.    Escribir "Ingrese su correo: "
-91.    Leer correos
-92.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nNombres: " + nombres + "\nApellidos: " + apellidos + "\nEdad: " + edad + "\nCiudad: " + ciudad + "\nPaís: " + pais + "\nIdioma: "+ idioma + "\nCorreo electrónico: " + correo + "\n\n"
-93.    Escribir cadena
-94. Fin funcion crearTwitter
+78.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Twitter\n"
+79.    nombre, x(200)[{A-Z}, {a-z} {BS}]
+80.    nombres, x(200)[{A-Z}, {a-z} {BS}]
+81.    apellido, x(200)[{A-Z}, {a-z} {BS}]
+82.    edad, i[0-n]
+83.    ciudad, x(200)[{A-Z}, {a-z} {BS}]
+84.    pais, x(200)[{A-Z}, {a-z} {BS}]
+85.    idioma, x(200)[{A-Z}, {a-z} {BS}]
+86.    correo, x(200)[{A-Z}, {a-z} {BS}]
+87.    Escribir "Ingrese su nombre de usuario: "
+88.    Leer nombre
+89.    Escribir "Ingrese sus nombres: "
+90.    Leer nombres
+91.    Escribir "Ingrese sus apellidos: "
+92.    Leer apellido
+93.    Escribir "Ingrese su edad: "
+94.    Leer edad
+95.    Escribir "Ingrese su ciudad: "
+96.    Leer ciudad
+97.    Escribir "Ingrese su país: "
+98.    Leer pais
+99.    Escribir "Ingrese el idioma: "
+100.    Leer idioma
+101.    Escribir "Ingrese su correo: "
+102.    Leer correos
+103.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nNombres: " + nombres + "\nApellidos: " + apellidos + "\nEdad: " + edad + "\nCiudad: " + ciudad + "\nPaís: " + pais + "\nIdioma: "+ idioma + "\nCorreo electrónico: " + correo + "\n\n"
+104.    Escribir cadena
+105. Fin funcion crearTwitter
 
-95. Funcion crearWhatsapp():
+106. Funcion crearWhatsapp():
 
-96.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de WhatsApp\n"
-97.    nombre, x(200)[{A-Z}, {a-z} {BS}]
-98.    cell, i[0-n]
-99.    edad, i[0-n]
-100.   ciudad, x(200)[{A-Z}, {a-z} {BS}]
-101.   pais, x(200)[{A-Z}, {a-z} {BS}]
-102.   Escribir "Ingrese su nombre de usuario: "
-103.   Leer nombre
-104.   Escribir "Ingrese su número de teléfono: "
-105.   Leer cell
-106.   Escribir "Ingrese su edad: "
-107.   Leer edad
-108.   Escribir "Ingrese su ciudad: "
-109.   Leer ciudad
-110.   Escribir "Ingrese su país: "
-111.   Leer pais 
-112.   cadena <-- cadena + "Nombre de usuario: " + nombre + "\nNúmero de teléfono: " + cell + "\nEdad: " + edad + "\nCiudad: " + ciudad + "\nPaís: " + pais + "\n\n"
-113.   Escribir cadena
-114. Fin funcion crearWhatsapp
+107.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de WhatsApp\n"
+108.    nombre, x(200)[{A-Z}, {a-z} {BS}]
+109.    cell, i[0-n]
+110.    edad, i[0-n]
+111.   ciudad, x(200)[{A-Z}, {a-z} {BS}]
+112.   pais, x(200)[{A-Z}, {a-z} {BS}]
+113.   Escribir "Ingrese su nombre de usuario: "
+114.   Leer nombre
+115.   Escribir "Ingrese su número de teléfono: "
+116.   Leer cell
+117.   Escribir "Ingrese su edad: "
+118.   Leer edad
+119.   Escribir "Ingrese su ciudad: "
+120.   Leer ciudad
+121.   Escribir "Ingrese su país: "
+122.   Leer pais 
+123.   cadena <-- cadena + "Nombre de usuario: " + nombre + "\nNúmero de teléfono: " + cell + "\nEdad: " + edad + "\nCiudad: " + ciudad + "\nPaís: " + pais + "\n\n"
+124.   Escribir cadena
+125. Fin funcion crearWhatsapp
 
-115. Funcion crearTelegram():
+126. Funcion crearTelegram():
 
-116.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Telegram\n"
-117.    nombre, x(200)[{A-Z}, {a-z} {BS}]
-118.    cell, i[0-n]
-119.    ciudad, x(200)[{A-Z}, {a-z} {BS}]
-120.    pais, x(200)[{A-Z}, {a-z} {BS}]
-121.    interes, x(200)[{A-Z}, {a-z} {BS}]¿
-122.    Escribir "Ingrese su nombre de usuario: "
-123.    Leer nombre
-124.    Escribir "Ingrese su número de teléfono: "
-125.    Leer cell
-126.    Escribir "Ingrese su ciudad: "
-127.    Leer ciudad
-128.    Escribir "Ingrese su país: " 
-129.    Leer pais
-130.    Escribir "Ingrese su área de interés: "
-131.    Leer interes 
-132.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nNúmero de teléfono: " + cell + "\nCiudad: " + ciudad + "\nPaís: " + pais + "\nInteres: " + interes + "\n\n"
-133.    Escribir cadena
-134. Fin funcion crearTelegram
+127.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Telegram\n"
+128.    nombre, x(200)[{A-Z}, {a-z} {BS}]
+129.    cell, i[0-n]
+130.    ciudad, x(200)[{A-Z}, {a-z} {BS}]
+131.    pais, x(200)[{A-Z}, {a-z} {BS}]
+132.    interes, x(200)[{A-Z}, {a-z} {BS}]¿
+133.    Escribir "Ingrese su nombre de usuario: "
+134.    Leer nombre
+135.    Escribir "Ingrese su número de teléfono: "
+136.    Leer cell
+137.    Escribir "Ingrese su ciudad: "
+138.    Leer ciudad
+139.    Escribir "Ingrese su país: " 
+140.    Leer pais
+141.    Escribir "Ingrese su área de interés: "
+142.    Leer interes 
+143.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nNúmero de teléfono: " + cell + "\nCiudad: " + ciudad + "\nPaís: " + pais + "\nInteres: " + interes + "\n\n"
+144.    Escribir cadena
+145. Fin funcion crearTelegram
 
-135. Funcion crearSignal():
+146. Funcion crearSignal():
 
-136.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Signal\n"
-137.    nombre, x(200)[{A-Z}, {a-z} {BS}]
-138.    cell, i[0-n]
-139.    ciudad, x(200)[{A-Z}, {a-z} {BS}]
-140.    pais, x(200)[{A-Z}, {a-z} {BS}]
-141.    hobby, x(200)[{A-Z}, {a-z} {BS}]¿
-142.    Escribir "Ingrese su nombre de usuario: "
-143.    Leer nombre
-144.    Escribir "Ingrese su número de teléfono: "
-145.    Leer cell
-146.    Escribir "Ingrese su ciudad: "
-147.    Leer ciudad
-148.    Escribir "Ingrese su país: " 
-149.    Leer pais
-150.    Escribir "Ingrese su hobby principal: "
-151.    Leer hobby 
-152.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nNúmero de teléfono: " + cell + "\nCiudad: " + ciudad + "\nPaís: " + pais + "\nHobby principal: " + hobby + "\n\n"
-153.    Escribir cadena
-154. Fin funcion crearSignal
+147.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Signal\n"
+148.    nombre, x(200)[{A-Z}, {a-z} {BS}]
+149.    cell, i[0-n]
+150.    ciudad, x(200)[{A-Z}, {a-z} {BS}]
+151.    pais, x(200)[{A-Z}, {a-z} {BS}]
+152.    hobby, x(200)[{A-Z}, {a-z} {BS}]¿
+153.    Escribir "Ingrese su nombre de usuario: "
+154.    Leer nombre
+155.    Escribir "Ingrese su número de teléfono: "
+156.    Leer cell
+157.    Escribir "Ingrese su ciudad: "
+158.    Leer ciudad
+159.    Escribir "Ingrese su país: " 
+160.    Leer pais
+161.    Escribir "Ingrese su hobby principal: "
+162.    Leer hobby 
+163.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nNúmero de teléfono: " + cell + "\nCiudad: " + ciudad + "\nPaís: " + pais + "\nHobby principal: " + hobby + "\n\n"
+164.    Escribir cadena
+165. Fin funcion crearSignal
 
-155. Funcion crearInstagram():
+166. Funcion crearInstagram():
 
-156.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Instagram\n"
-157.    nombre, x(200)[{A-Z}, {a-z} {BS}]
-158.    ciudad, x(200)[{A-Z}, {a-z} {BS}]
-159.    edad, i[0-n]
-160.    correo, x(200)[{A-Z}, {a-z} {BS}] 
-161.    Escribir "Ingrese su nombre de usuario: "
-162.    Leer nombre
-163.    Escribir "Ingrese su ciudad: "
-164.    Leer ciudad
-165.    Escribir "Ingrese su edad: "
-166.    Leer edad
-167.    Escribir "Ingrese su correo: "
-168.    Leer correo
-169.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nCiudad: " + ciudad + "\nEdad: " + edad + "\nCorreo electrónico: " + correo + "\n\n"
-170.    Escribir cadena
-171. Fin funcion crearInstagram
-
-172. Funcion crearFlickr():
-  
-173.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Flickr\n"
-174.    nombre, x(200)[{A-Z}, {a-z} {BS}]
-175.    correo, x(200)[{A-Z}, {a-z} {BS}] 
-176.    Escribir "Ingrese su nombre de usuario: "
-177.    Leer nombre
+167.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Instagram\n"
+168.    nombre, x(200)[{A-Z}, {a-z} {BS}]
+169.    ciudad, x(200)[{A-Z}, {a-z} {BS}]
+170.    edad, i[0-n]
+171.    correo, x(200)[{A-Z}, {a-z} {BS}] 
+172.    Escribir "Ingrese su nombre de usuario: "
+173.    Leer nombre
+174.    Escribir "Ingrese su ciudad: "
+175.    Leer ciudad
+176.    Escribir "Ingrese su edad: "
+177.    Leer edad
 178.    Escribir "Ingrese su correo: "
 179.    Leer correo
-180.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nCorreo electrónico: " + correo + "\n\n"
+180.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nCiudad: " + ciudad + "\nEdad: " + edad + "\nCorreo electrónico: " + correo + "\n\n"
 181.    Escribir cadena
-182. Fin funcion crearFlickr
+182. Fin funcion crearInstagram
 
-183. Funcion obtenerMensaje(a, i): x
-184.   (mensajeFinal(3),x(300)[{a-z}, {A-Z}, {BS}])
-185.    mensajeFinal <-- {"Campaña con poca afluencia", "Campaña moderada siga adelante", "Excelente campaña"}
-186.    Si a == 1 and a <= 5 entonces
-187.        retorna mensajeFinal[0]
-188.    De lo contrario
-189.        Si a >= 6 and a <= 15 entonces
-190.            retorna mensajeFinal[1]
-191.        De lo contrario
-192.            si a >= 16 entonces 
-193.                retorna mensajeFinal[2]
-194. Fin funcion obtenerMensaje
-195. Fin
+183. Funcion crearFlickr():
+  
+184.    cadena, x(200)[{A-Z}, {a-z} {BS}] <-- "Creando cuenta de Flickr\n"
+185.    nombre, x(200)[{A-Z}, {a-z} {BS}]
+186.    correo, x(200)[{A-Z}, {a-z} {BS}] 
+187.    Escribir "Ingrese su nombre de usuario: "
+188.    Leer nombre
+189.    Escribir "Ingrese su correo: "
+190.    Leer correo
+191.    cadena <-- cadena + "Nombre de usuario: " + nombre + "\nCorreo electrónico: " + correo + "\n\n"
+192.    Escribir cadena
+193. Fin funcion crearFlickr
+
+194. Funcion obtenerMensaje(a, i): x
+195.   (mensajeFinal(3),x(300)[{a-z}, {A-Z}, {BS}])
+196.    mensajeFinal <-- {"Campaña con poca afluencia", "Campaña moderada siga adelante", "Excelente campaña"}
+197.    Si a == 1 and a <= 5 entonces
+198.        retorna mensajeFinal[0]
+199.    De lo contrario
+200.        Si a >= 6 and a <= 15 entonces
+201.            retorna mensajeFinal[1]
+202.        De lo contrario
+203.            si a >= 16 entonces 
+204.                retorna mensajeFinal[2]
+205. Fin funcion obtenerMensaje
+206. Fin
